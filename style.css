@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Sedgwick+Ave&display=swap');
+:root{
+    --Main-Gray: rgb(39, 36, 36);
+    --Hover-Color: rgba(0, 255, 0, 0.658);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+nav{
+    background-color: rgba(39, 36, 36, 0.555);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    color: white;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    list-style-type: none;
+        
+}
+.navli{
+    padding-left: 50px;
+
+}
+.nav :hover{
+    color: var(--Hover-Color);
+}
+.login{
+    list-style-type: none;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.logo{
+    width: 80px;
+    border-radius: 2.5rem;
+    margin-left: 10px;
+}
+select{
+    background-color: transparent ;
+    color: white;
+    border-style: none;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 20px;
+}
+.intro{
+    background-image: url(./Images/Intro\ fr.jpeg);
+    border-width: 100%;
+    height: 630px;     
+}
+.description{
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+.shop {
+   margin-left: 200px;
+   margin-top: 10px;
+   border-style: none;
+   color: white; 
+   border-radius: 20px;
+   background-color: var(--Hover-Color);
+   width: 150px;
+   text-align: center;
+   text-decoration: none;
+   align-items: center;
+   font-size: 22px;
+
+}
+.shop a{
+    text-decoration: none;
+    color: white;
+}
+.shop :hover{
+    color: rgba(255, 255, 255, 0.781);
+}
+.h1intro{
+    color: white;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 50px;
+}
+.pintro{
+    color: white;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 30px;
+}
+.h2options{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 50px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.opt1{
+border-style: solid;
+width: 22%;
+height: fit-content;
+justify-content: space-evenly;
+border-radius: 10px;
+margin-top: 30px;
+background-color: var(--Main-Gray);
+color: white;
+}
+button{
+    margin-bottom: 1rem;
+}
+.opt1 img{
+    width: 90%;
+    height: 175px;
+    margin-left: 5%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.opt1 h3{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 20px;
+}
+.opt1 p{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.opt1 .sp{
+    padding-bottom: 20px;
+}
+.opt1 button{
+    margin-left: 35%;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 90px;
+    background-color: var(--Hover-Color);
+    color: white;
+}
+.about{
+    background-image: url(./Images/About\ Us.jpeg);
+    border-width: 100%;
+    height: 630px; 
+    margin-top: 60px;
+}
+.container{
+    color: white;
+    width: 25%;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    background-color: var(--Main-Gray);
+    padding: 15px;
+    
+}
+.container h2{
+    text-align: center;
+}
+.container p{
+    padding-right: 5px;
+}
+.follow h2{
+    text-align:  center;
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+.follow h3{
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 1.rem;
+}
+.follow ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.follow img{
+    border-radius: 0.5rem;
+    width: 25%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    
+}
+.deliver{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(./Images/Delivery.jpeg);
+    width: 100%;
+    height: 40rem;
+}
+.dmain{
+    width: 45%;
+    background-color: rgba(39, 36, 36, 0.705);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.dmain h2{
+    font-family: "Sedgwick Ave", sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+.dmain a{
+    color: white;
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+.locations h2{
+    color: white;
+    font-family: "Sedgwick Ave", sans-serif;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    background-color: rgba(39, 36, 36, 0.705);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    
+}
+iframe{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12rem;
+}
+
+footer .first{
+    color: white;
+}
+footer div{
+    margin-left: 10px;
+}
+
+.logo img{
+    width: 5rem;
+    border-radius: 2.5rem;
+}
+.first li{
+    list-style-type: none;
+    margin-top: 2rem;
+}
