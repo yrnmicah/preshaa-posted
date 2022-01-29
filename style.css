@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Sedgwick+Ave&display=swap');
 :root{
-    --Main-Gray: rgb(39, 36, 36);
+    --Main-Gray: rgba(43, 41, 41, 0.747);
     --Hover-Color: rgba(0, 255, 0, 0.658);
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.mobile{
+    display: none;
+}
+
 body{
     font-family: "Open Sans Condensed", sans-serif;
 }
@@ -19,7 +24,7 @@ nav{
     height: 90px;
     color: white;
     font-family: "Sedgwick Ave", sans-serif;
-    font-size: 20px;
+    font-size: 150%;
     position: fixed;
     width: 100%;
 }
@@ -31,7 +36,7 @@ nav{
         
 }
 .navli{
-    padding-left: 50px;
+    padding-left: 25%;
 
 }
 .nav :hover{
@@ -39,11 +44,11 @@ nav{
 }
 .login{
     list-style-type: none;
-    padding-right: 10px;
-    font-size: 15px;
+    padding-right: 1%;
+    font-size: 65%;
 }
 .logo{
-    width: 80px;
+    width: 5%;
     border-radius: 2.5rem;
     margin-left: 10px;
 }
@@ -262,3 +267,300 @@ footer div{
     list-style-type: none;
     margin-top: 2rem;
 }
+@media (max-width: 700px){
+    :root{
+        --Main-Gray: rgb(39, 36, 36);
+        --Hover-Color: rgba(0, 255, 0, 0.658);
+    }
+   
+    body{
+        font-family: "Open Sans Condensed", sans-serif;
+    }
+    nav{
+        display: none;
+    }
+    .nav{
+        display: none;
+            
+    }
+    .navli{
+        display: none;
+    
+    }
+    .nav :hover{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    select{
+        display: none;
+    }
+    .intro{
+        display: none;  
+    }
+    .description{
+        display: none;
+    
+    }
+    .shop {
+        display: none;
+    
+    }
+    .shop a{
+        display: none;
+    }
+    .shop :hover{
+        display: none;
+    }
+    .h1intro{
+        display: none;
+    }
+    .pintro{
+        display: none;
+    }
+    .h2options{
+        display: none;
+    }
+    .options{
+        display: none;
+    
+    }
+    .opt1{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .opt1 img{
+        display: none;
+    }
+    .opt1 h3{
+        display: none;
+    }
+    .opt1 p{
+        display: none;
+    }
+    .opt1 .sp{
+        display: none;
+    }
+    .opt1 button{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .container{
+        display: none;
+        
+    }
+    .container h2{
+        display: none;
+    }
+    .container p{
+        display: none;
+    }
+    .follow h2{
+        display: none;
+    }
+    .follow h3{
+        display: none;
+    }
+    .follow ul{
+        display: none;
+    }
+    .follow img{
+        display: none;
+    }
+    .deliver{
+        display: none;
+    }
+    .dmain{
+        display: none;
+    }
+    .dmain h2{
+        display: none;
+    }
+    .dmain a{
+        display: none;
+    }
+    .locations h2{
+        display: none;
+        
+    }
+    iframe{
+        display: none;
+    }
+    
+    footer{
+        display: none;
+    }
+    
+    footer .first{
+        display: none;
+    }
+    footer div{
+        display: none;
+    }
+    
+    .logo img{
+        display: none;
+    }
+    .first li{
+       display: none;
+    }
+
+    .mobile{
+        display:inherit;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(128, 128, 128, 0.151);
+        width: 100%;
+        font-family: "Sedgwick Ave", sans-serif;
+        position: fixed;
+        margin-top: -2.65rem;
+    }
+    .navbar h1{
+        margin-left: 5%;
+        padding-top:0.2rem ;
+    }
+    .navbar a{
+        margin-right: 1rem;
+        font-size: 1.75rem;
+    }
+    .mintro h2{
+        font-family: "Sedgwick Ave", sans-serif;
+        padding-top: 1rem;
+        font-size: 2.0rem;
+    }
+    .mintro p{
+        font-size: 1.2rem;
+    }
+    .mintro{
+        margin-top: 2.65rem;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem ;
+        text-align: center;
+        background-image: url(./Images/Mobile\ intro.jpeg);
+        height: 275px;
+        border-radius: 1rem;
+        color: black;
+    }
+    .mTopProduct{
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        margin-top: 0.75rem;
+        justify-content: center;
+
+    }
+    .mTopProduct h2{
+        text-align: center;
+        font-family: "Sedgwick Ave", sans-serif;
+
+    }
+    .mFirst{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+    }
+    .mSecond{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .shrooms{
+        background-image: url(./Images/mobile\ shrooms.jpeg);
+        color: white;
+        
+        border-radius: 0.75rem 0 0 0;
+        text-align: center;
+        padding: 1rem;
+        width: fit-content;
+    }
+    
+    .molly{
+        background-image: url(./Images/Molly.jpeg);
+       
+        color: white;
+        border-radius: 0 0.75rem 0 0;
+        text-align: center;
+        padding: 1rem;
+        width: fit-content;
+    }
+    .weed{
+        background-image: url(./Images/mobile\ weed.jpeg);
+        color: white;
+       
+        border-radius: 0 0 0 0.75rem ;
+        text-align: center;
+        padding: 1rem;
+        width: fit-content;
+    }
+   
+    }
+    .perc{
+        background-image: url(./Images/mobile\ perk.jpeg);
+       
+        color: white;
+        border-radius: 0 0 0.75rem 0;
+        text-align: center;
+        padding: 1rem;
+        width: fit-content;
+        
+        
+        
+    }
+    button{
+        display: inherit;
+      
+       
+        font-size: 20px;
+        border-radius: 0.5rem;
+        background-color: var(--Main-Gray);
+        color: white;
+    }
+    .mfollow{
+        text-align: center;
+        margin: 1rem;
+        
+    }
+    .mfollow h2{
+        font-family: "Sedgwick Ave", sans-serif;
+    }
+    .mfollow h3{
+        font-variant: small-caps;
+        margin-bottom: 1rem;
+    }
+    .mfollow ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mfollow ul li{
+        width: 30%;
+        list-style-type: none;
+    }
+    .mfollow img{
+        width: 50%;
+    }
+    .location{
+        text-align: center;
+    }
+    iframe{
+        display: inherit;
+        width: 100%;
+        margin-top: 1rem;
+       
+        
+        
+    }
+    
